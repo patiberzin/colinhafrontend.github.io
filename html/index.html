@@ -13,23 +13,24 @@
 
     <link rel="stylesheet" href="../css/style.css">
 </head>
-<body>
+<body id="topo">
     <header class="header">
-        <a href="https://www.instagram.com/colinhafrontend/" target="_blank"><img class="logo" src="../img/logo-colinha/logo-colinha.png" alt="colinha-frontend"></a>
-        <nav>
+        <nav class="container-nav">
+            <a href="https://www.instagram.com/colinhafrontend/" target="_blank"><img class="logo" src="../img/logo-colinha/logo-colinha.png" alt="colinha-frontend"></a>
+
             <ul class="js-nav header-menu">
                 <li><a href="#projetos">Projetos</a></li> 
                 <li><a href="#formacao">Formação</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
-        </nav>
-        <div>
+
             <ul class="lista-redes">
                 <li><a href="https://www.instagram.com/colinhafrontend/" target="_blank"><img src="../img/redes-sociais/insta-pati.png"alt="instagram-colinhafrontend"></a></li>
                 <li><a href="https://github.com/patiberzin" target="_blank"><img src="../img/redes-sociais/github-pati.png"alt="github-patricia"></a></li>
                 <li><a href="https://www.linkedin.com/in/patriciaberzincandelaria/" target="_blank"><img src="../img/redes-sociais/linkedin-pati.png" alt="linkedin-patricia"></a></li>
             </ul>
-        </div>
+
+        </nav>
     </header>
 
     <main class="container introducao">
@@ -150,17 +151,28 @@
         </div>
     </section>
 
-    <footer class="footer" id="contato">
-        <div class="footer-container">
-            <p class="footer-texto">Estou disponível para novos projetos. Entre em contato comigo e marcamos uma conversa!</p>
-            <ul class="footer-contato">
+    <section class="contato" id="contato">
+        
+        <div class="contato-container">
+            <p class="contato-texto">Estou disponível para novos projetos. Entre em contato comigo e marcamos uma conversa!</p>
+            <ul class="contato-contato">
                 <li>pberzincand@gmail.com</li>
                 <li><a href="https://www.instagram.com/colinhafrontend/">@colinhafrontend</a></li>
             </ul>
-            <p class="footer-copy">Patrícia Berzin Candelária. Alguns direitos reservados.</p>
+
+            <div class="botao">
+                <a href="#topo" class="btn-top">Volte para cima</a>
+            </div>
+           
         </div>
+        
+    </section>
+
+    <footer class="direitos">
+        <p class="footer-copy">Patrícia Berzin Candelária. Alguns direitos reservados.</p>
     </footer>
 
     <script href="../js/script.js"></script>
+    
 </body>
 </html>

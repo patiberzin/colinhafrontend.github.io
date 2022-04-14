@@ -20,6 +20,10 @@ img {
     display: block;
 }
 
+a {
+    text-decoration: none;
+}
+
 
 .subtitulo {
     font-size: 7rem;
@@ -29,6 +33,8 @@ img {
     max-width: 4ch;
     margin-top: 55px; /*adicionado*/
 }
+
+
 
 @media (max-width: 800px) {
     .subtitulo {

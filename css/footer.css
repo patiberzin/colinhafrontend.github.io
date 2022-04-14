@@ -1,8 +1,8 @@
-.footer {
+.contato {
     background: #000;
 }
 
-.footer-container {
+.contato-container {
     max-width: 1200px;
     padding: 120px 20px 60px 20px;
     margin: 0 auto;
@@ -12,13 +12,13 @@
     align-items: center;
 }
 
-.footer-texto {
+.contato-texto {
     font-size: 1.5rem;
     line-height: 1.33;
     color: white;
 }
 
-.footer-contato li {
+.contato-contato li {
     font-weight: bold;
     font-size: 2.25rem;
     line-height: 1.1;
@@ -26,14 +26,48 @@
     margin-bottom: 30px;
 }
 
-.footer-contato li a  {
+.contato-contato li a  {
     color: #FF66C4;
 }
 
 .footer-copy {
     grid-column: 1 / -1;
     font-size: 1.125rem;
+    color: #FF66C4;
+}
+
+.btn-top {
+    border: 3px solid #FF66C4;
+    padding: 10px 20px;
+    color: #FF66C4;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .1em;
+    position: absolute;
+}
+
+.btn-top:hover {
     color: #ffddee;
+    border-color: #ffddee;
+}
+
+.botao {
+    padding-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+    clear: both;
+}
+
+.direitos {
+    background: #FF66C4;
+    padding: 20px;
+}
+
+.direitos p {
+    color: black;
+    font-weight: bold;
 }
 
 @media (max-width: 800px) {
