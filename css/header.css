@@ -4,12 +4,12 @@
     width: 100%;
     background-color: #FF66C4;
     padding: 15px;
-    z-index: 10;
+    z-index: 100;
 }
 
 .container-nav {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -34,11 +34,6 @@
     display: block;
 }
 
-.lista-redes {
-    display: flex;
-    gap: 15px;
-}
-
 @media (max-width: 800px) {
     .header {
         flex-direction: column;
@@ -56,9 +51,6 @@
 }
 
 @media (max-width: 400px) {
-    .lista-redes {
-        display: none;
-    }
     .container-nav {
         flex-direction: column;
         gap: 20px;
