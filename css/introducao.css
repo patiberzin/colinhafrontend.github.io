@@ -16,20 +16,22 @@
     font-size: 4.5rem;
     line-height: 1.125;
     margin-bottom: 30px;
-    font-family: 'Libre Baskerville', serif;
-    color: #141414;
+    font-family: 'Averia Serif Libre', cursive; /*alterado*/
+    font-weight: bold; /*alterado*/
+    color: #802392;
     position: relative;
 }
 
 .introducao h1::before {
     content: "";
     display: block;
-    width: 130px;
-    height: 100px;
-    background: url('../img/detalhe.svg') no-repeat center;
+    width: 6%;
+    height: 15%;
+    border-radius: 100%;
+    background: linear-gradient(#A87BE0,#C96BDB);
     position: absolute;
-    top: -15px;
-    left: -40px;
+    top: -5px;
+    left: -10px;
     z-index: -1;
 }
 

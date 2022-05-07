@@ -2,7 +2,7 @@
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #FF66C4;
+    background: linear-gradient(#A87BE0,#C96BDB);
     padding: 15px;
     z-index: 100;
 }
@@ -26,12 +26,20 @@
 }
 
 .header-menu a {
-    font-size: 1.125rem;
+    font-size: 1.5rem;
+    font-weight: bold;
     line-height: 1.3;
     padding: 10px 20px;
     text-decoration: none;
-    color: white;
+    color: #FFE3DC;
     display: block;
+}
+
+.header-menu a:hover {
+    color: #93E1D8;
+    border-radius: 30px;
+    box-shadow: inset 0 0 1em #FFE3DC;
+    
 }
 
 @media (max-width: 800px) {
@@ -67,5 +75,25 @@
     }
     .logo {
         height: auto;
+    }
+}
+
+/* Animação */
+
+.anima-intro {
+    animation-duration: 2s;
+    animation-name: slidein;
+  }
+
+  @keyframes slidein { 
+    from {
+        opacity: 0;
+        transition: 1s;
+        animation-fill-mode: both;
+    }
+    to {
+        opacity: 1;
+        transition: 1s;
+        animation-fill-mode: both;
     }
 }

@@ -1,7 +1,8 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Quattrocento Sans', sans-serif;
     margin: 0px;
     color: #141414;
+    background-color: #FFE3DC;
 }
 
 h1, h2, h3, p {
@@ -43,7 +44,3 @@ a {
         max-width: initial !important;
     }
 }
-
-/* JavaScript */
-
-

@@ -1,5 +1,5 @@
 .contato {
-    background: #000;
+    background: #FFE3DC;
 }
 
 .contato-container {
@@ -13,33 +13,39 @@
 }
 
 .contato-texto {
+    font-weight: bold;
     font-size: 1.5rem;
     line-height: 1.33;
-    color: white;
+    color: #802392;
 }
 
 .contato-contato li {
     font-weight: bold;
     font-size: 2.25rem;
     line-height: 1.1;
-    color: white;
+    color: #802392;
     margin-bottom: 30px;
 }
 
 .contato-contato li a  {
-    color: #FF66C4;
+    color: #802392 ;
+}
+
+.contato-contato li a:hover  {
+    color: #A87BE0;
 }
 
 .footer-copy {
     grid-column: 1 / -1;
     font-size: 1.125rem;
-    color: #FF66C4;
+    color: #802392;
 }
 
 .btn-top {
-    border: 3px solid #FF66C4;
+    background: linear-gradient(#A87BE0,#C96BDB);
+    border-radius: 30px;
     padding: 10px 20px;
-    color: #FF66C4;
+    color: #FFE3DC;
     font-size: 14px;
     line-height: 20px;
     text-transform: uppercase;
@@ -49,8 +55,8 @@
 }
 
 .btn-top:hover {
-    color: #ffddee;
-    border-color: #ffddee;
+    color: #802392;
+    background: linear-gradient(#EF81E7,#93E1D8);
 }
 
 .botao {
@@ -61,12 +67,12 @@
 }
 
 .direitos {
-    background: #FF66C4;
+    background: #EF81E7;
     padding: 20px;
 }
 
 .direitos p {
-    color: black;
+    color: #050505;
     font-weight: bold;
 }
 
