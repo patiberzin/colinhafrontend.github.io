@@ -40,6 +40,21 @@
     color: #525252;
 }
 
+.botoes-redes {
+    padding-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+    clear: both;
+}
+
+.espaco-btn {
+    display: flex;
+}
+
+.espaco-btn a {
+   margin-right: 20px;
+}
+
 @media (max-width: 1000px) {
     .introducao h1 {
         font-size: 3rem;
