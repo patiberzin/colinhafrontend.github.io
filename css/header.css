@@ -48,9 +48,7 @@
         padding: 20px;
     }
     .header a {
-        background: #ffddee;
         color: #141414;
-        border-radius: 4px;
     }
     .logo {
         height: auto;
@@ -61,16 +59,15 @@
     .container-nav {
         flex-direction: column;
         gap: 20px;
-        padding: 10px auto;
-        
+        padding: 10px auto; 
     }
     .header a {
-        background: #ffddee;
         color: #141414;
         border-radius: 4px;
     }
     .header-menu a {
         padding: 10px 5px;
+        font-size: 1.5rem;
     }
     .logo {
         height: auto;

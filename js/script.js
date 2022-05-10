@@ -19,5 +19,13 @@ function scrollSuave() {
 }
 scrollSuave();
 
+//Accordeon List pg UX/UI
 
+const accordeon = document.querySelector('[data-js="accordeon"]');
+
+accordeon.addEventListener('click', e => {
+  const accordeonHeaderId = e.target.dataset.accordeonHeader; 
+  const accordeonItemToBeOppened = document.querySelector(`[data-accordeon-body="${accordeonHeaderId}"]`) 
+ accordeonItemToBeOppened.classList.toggle('active');  
+})
 

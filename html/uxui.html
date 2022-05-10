@@ -11,9 +11,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@400;700&family=Quattrocento+Sans:wght@400;700&display=swap" rel="stylesheet">
 
-
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/css-uxui/uxui.css">
+
 </head>
 <body id="topo">
         <nav class="header container-nav js-menu">
@@ -28,49 +27,57 @@
         <section class="container-uxui">
             <h1 id="cores">UI Design deste Portfólio</h1>
             
-            <h2 class="subtitulo-uxui">Cores da marca Colinha Frontend</h2>
+            <h2 class="subtitulo-uxui">Cores do site e da marca</h2>
 
-            <ul class="lista-container">
+            <ul data-js="accordeon" class="lista-container">
                 <li>
-                    <h2>Violet Web #EF81E7 (Cor principal) →</h2> 
-                    <div class="color-violet"></div>
-                    <p>Essa cor está entre o rosa e o roxo (violeta). Representa feminilidade, tem o intuito de atrair mais mulheres para o setor de Tecnologia. Usei também como um tom de modernidade e novidade. Algo que nem sempre é visto por aí, tende a atrair as pessoas.</p>
-                </li>
-                <li>
-                    <h2>Lavender Floral #A87BE0 e French Mauve #C96BDB (Cores de apoio) →</h2> 
-                    <div class="container-cores">
-                        <div class="color-lavender"></div>
-                        <div class="color-mauve"></div>
+                    <div class="color-flex"> 
+                        <h2 data-accordeon-header="1">Violet Web #EF81E7 ↴
+                        </h2> <div class="color-violet"></div>
                     </div>
-                    <p>São cores de apoio à cor principal: Violet Web. Em uma visão geral, eu uso muito esses tons de roxo que significam sabedoria, respeito e realeza. Representam imaginação e inteligência.</p>
+                    
+                    <p data-accordeon-body="1" class="p-color active">Essa cor está entre o rosa e o roxo (violeta). É usada como cor principal e representa feminilidade, tem o intuito de atrair mais mulheres para o setor de Tecnologia. Usei também como um tom de modernidade e novidade. Algo que nem sempre é visto por aí, tende a atrair as pessoas.</p>
                 </li>
                 <li>
-                    <h2>Misty Rose #FFE3DC (Cor de fundo) →</h2>
-                    <div class="color-bege"></div>
-                    <p>Considero um tom que traz conforto. Faz com que os usuários queiram permanecer mais tempo em um local, ou sintam-se em casa.</p>
-                </li>
-                <li>
-                    <h2>Middle Blue Green #93E1D8 (Detalhes) →</h2>
-                    <div class="color-blue-green"></div>
-                    <p>O verde-água representa na minha marca, equilíbrio, tranquilidade e vitalidade. Algo que fará com que o usuário do meu produto (o Instagram Colinha Frontend) sinta um ambiente propício, fluído, para concentrar-se nos estudos.</p>
-                </li>
-                <li>
-                    <h2>Dark Magenta #802392 e Rich Black FOGRA 39 #050505 (Títulos e textos) →</h2>
-                    <div class="container-cores">
-                        <div class="color-magenta"></div>
-                        <div class="color-black"></div>
+                    <div class="color-flex">
+                        <h2 data-accordeon-header="2">Lavender Floral #A87BE0 e French Mauve #C96BDB ↴
+                        </h2> <div class="color-lavender"></div><div class="color-mauve"></div>
                     </div>
-                    <p>Cores que promovem alto contraste para títulos e letras.</p>
+                    <p data-accordeon-body="2" class="p-color active">São cores de apoio à cor principal: Violet Web. Em uma visão geral, eu uso muito esses tons de roxo que significam sabedoria, respeito e realeza. Representam imaginação e inteligência.</p>
+                </li>
+                <li>
+                    <div class="color-flex">
+                        <h2 data-accordeon-header="3">
+                            Misty Rose #FFE3DC ↴
+                        </h2><div class="color-beige"></div>
+                    </div>
+                    <p data-accordeon-body="3" class="p-color active">Considero um tom que traz conforto, por isso, uso no fundo. Faz com que os usuários queiram permanecer mais tempo em um local, ou sintam-se em casa.</p>
+                </li>
+                <li>
+                    <div class="color-flex">
+                        <h2 data-accordeon-header="4">
+                            Middle Blue Green #93E1D8 ↴
+                        </h2><div class="color-blue-green"></div>
+                    </div>
+                    <p data-accordeon-body="4" class="p-color active">O verde-água representa na minha marca, equilíbrio, tranquilidade e vitalidade. Essa cor traz nos detalhes, algo que fará com que o usuário do meu produto (o Instagram Colinha Frontend) sinta um ambiente propício e fluído, para concentrar-se nos estudos.</p>
+                </li>
+                <li>
+                    <div class="color-flex">
+                        <h2 data-accordeon-header="5">
+                            Dark Magenta #802392 e Rich Black #050505 ↴
+                        </h2><div class="color-magenta"></div><div class="color-black"></div>
+                    </div>
+                    <p data-accordeon-body="5" class="p-color active">Com essas cores, os títulos e textos ganham um alto contraste, em relação ao restante do site.</p>
                 </li>
             </ul>
-
+            
             <section>
                 <h1 id="tipografia">Escolha Tipográfica do Site</h1>
 
                 <h2 class="subtitulo-uxui">Títulos: Averia Serif Libre e Textos: Quattrocento Sans</h2>
 
-                <p>Foram escolhidas duas tipografias arredondadas para não destoar dos outros elementos do site. 
-                Essas fontes tem o intuito de demonstrar jovialidade, descontração, modernidade, diferenciação e simpatia, atraindo o usuário.
+                <p class="background-ui">Foram escolhidas duas tipografias arredondadas para não destoar dos outros elementos do site. 
+                <br>Essas fontes tem o intuito de demonstrar jovialidade, descontração, modernidade, diferenciação e simpatia, atraindo o usuário.
                 Além de serem fontes de fácil visibilidade e trazerem leveza, assim como a tonalidade das cores.</p>
                 
             </section>
@@ -78,12 +85,13 @@
             <section>
                 <h1>Heurísticas Aplicadas</h1>
 
-                <ul>
+                <ul class="background-ui">
                     <li>● Poucas opções para o usuário, o que traz foco ao principal</li>
-                    <li>● Marca clicável para a Home na pg UX/UI</li>
+                    <li>● Marca clicável para a Home na pg UI Design</li>
                     <li>● Marca clicável para o Instagram "Colinha Frontend", na Home</li>
                     <li>● Facilidade de escaneamento visual</li>
                     <li>● Contraste entre títulos e cores</li>
+                    <li>● Consistência e padrões</li>
                     <li>● Diferença entre links e textos</li>
                 </ul>
                 
@@ -91,6 +99,7 @@
 
             <section>
                 <h1>Wireframe - Figma</h1>
+                <img src="../img/portfolio-wireframe.png" alt="wireframe1" width="300" height="500">
             </section>
 
 
