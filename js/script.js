@@ -29,3 +29,4 @@ accordeon.addEventListener('click', e => {
  accordeonItemToBeOppened.classList.toggle('active');  
 })
 
+
