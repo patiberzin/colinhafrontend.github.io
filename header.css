@@ -59,7 +59,10 @@
     .container-nav {
         flex-direction: column;
         gap: 20px;
-        padding: 10px auto; 
+        padding: 10px 50px 10px 0; 
+    }
+    .header {
+        margin: 0 auto;
     }
     .header a {
         color: #141414;
