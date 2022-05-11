@@ -37,7 +37,7 @@
     border-radius: 5px;
 }
 
-.lista-container h3 {
+.lista-container h4 {
     font-size: 1.3rem;
     line-height: 1.125rem;
     margin-top: 30px;
@@ -144,12 +144,12 @@
     display: none;
 }
 
-h3::after {
+h4::after {
     content: "⤵";
     margin-left: 10px;
 }
 
-h3.ativo::after { /*não deu certo*/
+h4.ativo::after { /*não deu certo*/
     content: "⤴";
 }
 
