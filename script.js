@@ -21,12 +21,15 @@ scrollSuave();
 
 //Accordeon List pg UX/UI
 
-const accordeon = document.querySelector('[data-js="accordeon"]');
+const accordionList = document.querySelectorAll('.js-accordion dt');
 
-accordeon.addEventListener('click', e => {
-  const accordeonHeaderId = e.target.dataset.accordeonHeader; 
-  const accordeonItemToBeOppened = document.querySelector(`[data-accordeon-body="${accordeonHeaderId}"]`) 
- accordeonItemToBeOppened.classList.toggle('active');  
-})
+function activeAccordion() {
+    this.classList.toggle('ativo');
+    this.nextElementSibling.classList.toggle('ativo');
+}
+
+accordionList.forEach((item) => {
+    item.addEventListener('click', activeAccordion);
+});
 
 
